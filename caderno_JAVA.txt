@@ -1,0 +1,43 @@
+package aula.java_02;
+
+public class Caderno {
+
+
+
+	//criacao de atributos
+	    String modelo;
+		String cor;
+        float medida;
+        int nome;
+                   
+				
+        	boolean rabiscado;
+        	
+        	void rasurado()
+        	{
+        		if(rabiscado){
+        		 System.out.println("erro");
+        		}
+        		 else
+        		 {
+        			 System.out.println("disponivel para compra");
+        		}
+        	   }
+        	void Indisponivel()
+        	{
+        		rabiscado= true;
+
+            }
+        	void fechar()
+        	{
+        		
+        	}
+        	void status()
+        	{
+        		System.out.println("Classe Caderno");
+        		System.out.println("cor:" + cor);
+        		System.out.println("aberto:"+ rabiscado);
+        		System.out.println("Modelo: " + modelo);
+        		
+        	}
+}

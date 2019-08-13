@@ -1,0 +1,25 @@
+package aula.java_02;
+
+public class CadernoTeste {
+
+	
+		public static void main(String[] args) {
+		//TODO Auto-generated method stub
+		
+		Caderno c1;
+		c1 = new Caderno();
+		c1.cor ="vermelho";
+		c1.rabiscado = true;
+		c1.modelo = "titanic";
+		
+		//c1.status();
+	
+        c1.status();
+       Caderno c2 = new Caderno();
+       
+       c2.cor = "verde";
+       c2.rabiscado= false;
+       c2.modelo = "compactor";
+       c2.status();
+	}
+}
