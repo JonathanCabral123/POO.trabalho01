@@ -1,0 +1,100 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class TweetTeste {
+	
+	private int senha;
+	private String tweets;
+	private ArrayList<Usuario> usuario;
+	
+	public TweetTeste()
+	{
+		usuario = new ArrayList<Usuario>();
+	}
+
+	
+	
+	public String getTweets() {
+		return tweets;
+	}
+
+
+	public void setTweets(String tweets) {
+		this.tweets = tweets;
+	}
+
+
+	public ArrayList<Usuario> getUsuario() {
+		return usuario;
+	}
+
+
+	public void setUsuario(ArrayList<Usuario> usuario) {
+		this.usuario = usuario;
+	}
+
+
+	public int getSenha() {
+	
+		    public static void main(String[] args) {
+		        Scanner entrada = new Scanner(System.in);
+		        int senha;
+		        
+		        System.out.println("Digite sua senha: ");
+		        senha = entrada.nextInt();
+		        
+		        if(Senha.equals("oop"))){
+		        
+		        System.out.printf("tudo ok!\n");
+		        
+		  
+	}
+
+
+	private void setSenha(int senha) {
+		this.senha = senha;
+	}
+
+	
+	public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        Comparable<String> tweet;
+        
+        System.out.println("Digite seu tweet: ");
+        tweet = entrada.next();
+        
+        System.out.printf("Seu tweet é: " + tweet + "\n");
+        
+    }
+
+///novos metodos
+
+	public void adicionarUsuario(Usuario novoUsuario)
+	{
+		usuario.add(novoUsuario);
+		System.out.println("Usuario inserido com sucesso!!");
+	}
+	
+	public void imprimirUsuario()
+	{
+		System.out.println("Listagem de Usuarios");
+		System.out.println("*****************************");
+		
+		
+		for (int i=0; i<usuario.size(); i++)
+		{
+			Usuario al;
+			
+			al = usuario.get(i);
+			
+			System.out.println("Login = " + al.getLogin());
+			System.out.println("Tweet = " + al.getTweets());
+			System.out.println("*****************************");
+			
+		}
+		
+		
+		
+		
+	}
+}

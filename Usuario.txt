@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class Usuario {
+	private String login;
+	private String senha;
+	private String tweets;
+
+	
+	
+	public String getLogin() {
+
+		return login;
+		}
+
+		private String getSenha() {
+		return senha;
+		}
+
+		void setSenha(String senha) {
+		this.senha = "oop";
+		}
+
+		public String getTweets() {
+			 Scanner entrada = new Scanner(System.in);
+		return tweets;
+		}
+
+		private void setTweets(String tweets) {
+		this.tweets = tweets;
+		}
+
+		void setLogin(String login) {
+		this.login = login;
+		}
+
+		public void adicionarUsuario(Usuario a1) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		public void imprimirUsuario() {
+			// TODO Auto-generated method stub
+			
+		}
+		}
+	
+
+

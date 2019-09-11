@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+
+public class Tweet {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Usuario a1 = new Usuario();
+
+		a1.setLogin(null);
+		a1.setSenha("oop");
+
+		Usuario tweetDePOO = new Usuario();
+
+		tweetDePOO.adicionarUsuario(a1);
+
+		a1 = new Usuario();
+		a1.setSenha("oop");
+		a1.setLogin("");
+
+		tweetDePOO.adicionarUsuario(a1);
+		tweetDePOO.imprimirUsuario();
+		}
+		}
+	
+	
